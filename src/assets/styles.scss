@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Mono|Fira+Sans:100,300,400,600,700);
+@import "vars";
+
+body {
+    background: $bg-color;
+    font-family: 'fira Sans',sans-serif;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+section {
+    padding: 100px 10px;
+
+    .col-1 {
+        max-width: 640px;
+        margin: 0 auto;
+
+
+        h1 {
+            font-size: 3em;
+            color: white;
+            font-weight: 600;
+            line-height: 1;
+        }
+    
+        p {
+            font-family: 'PT Mono';
+            font-size: 18px;
+            line-height: 1.2;
+        }
+    }
+}
